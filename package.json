@@ -1,0 +1,27 @@
+{
+  "name": "node_module",
+  "version": "1.0.0",
+  "description": "nodejs for module",
+  "main": "server.js",
+  "scripts": {
+    "test": "./test/test.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedQiankun/node_js.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RedQiankun/node_js/issues"
+  },
+  "homepage": "https://github.com/RedQiankun/node_js#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mysql": "^2.15.0"
+  }
+}
